@@ -28,9 +28,7 @@ func TestValidParenthesis(t *testing.T) {
 	}
 	for _, test := range testTables {
 		value := ValidParenthesis(test.input)
-		if value == test.output {
-			t.Log("Test passed")
-		} else {
+		if value != test.output {
 			t.Errorf("ValidParenthesis returned %v, expected %v", value, test.output)
 		}
 	}

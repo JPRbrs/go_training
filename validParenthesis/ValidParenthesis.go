@@ -1,7 +1,5 @@
 package main
 
-import "fmt"
-
 func ValidParenthesis(parens string) bool {
 	count := 0
 	for _, c := range parens {
@@ -19,5 +17,5 @@ func ValidParenthesis(parens string) bool {
 }
 
 func main() {
-	fmt.Println(ValidParenthesis("()()()"))
+	ValidParenthesis("()()()")
 }
