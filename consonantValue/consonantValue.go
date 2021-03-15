@@ -35,8 +35,8 @@ func solve(str string) int {
 	// parts := make([]string, len(splitString))
 
 	// for _, group := range splitString {
-	// 	fmt.Println(group)
-	// 	fmt.Println(int(group - 96))
+	//	fmt.Println(group)
+	//	fmt.Println(int(group - 96))
 	// }
 
 	return 1
